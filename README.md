@@ -206,6 +206,10 @@ Specify context path, defaults to ''. If modified, Once Confluence has started,
 go to the administration area and click General Configuration.
 Append the new context path to your base URL.
 
+##### `synchrony`
+
+Specify whether or not to add support for collaborative editing available in Confluence 6.0 and later. This will create a "synchrony-proxy" context path in addition to the normal confluence context path. Default: false
+
 #### JVM Java parameters
 
 ##### `jvm_xms`
