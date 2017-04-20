@@ -38,6 +38,7 @@ class confluence (
   $tomcat_accept_count                                           = 100,
   # Reverse https proxy setting for tomcat
   Hash $tomcat_proxy                                             = {},
+  $synchrony                                                     = false,
   # Any additional tomcat params for server.xml
   Hash $tomcat_extras                                            = {},
   $context_path                                                  = '',
